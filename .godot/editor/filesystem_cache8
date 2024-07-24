@@ -1,10 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721777587
-debugworld.tscn::PackedScene::7368099086286319065::1721772665::0::1::::<><>::res://scenes/CharacterBody3D.gd
-icon.svg::CompressedTexture2D::4681313995544758785::1721763936::1721763940::1::::<><>::
-::res://scenes/::1721765799
-CharacterBody3D.gd::GDScript::-1::1721764638::0::1::::<>CharacterBody3D<>::
-::res://scenes/assets/::1721765709
-::res://scenes/ui/::1721765746
-::res://scenes/ui/menus/::1721777607
-2d menu.tscn::PackedScene::3910888296415124449::1721772665::0::1::::<><>::
+::res://::1721786514
+debugworld.tscn::PackedScene::7368099086286319065::1721786399::0::1::::<><>::res://scenes/CharacterBody3D.gd
+icon.svg::CompressedTexture2D::4681313995544758785::1721786027::1721786311::1::::<><>::
+README.md::TextFile::-1::1721786027::0::1::::<><>::
+::res://scenes/::1721786027
+CharacterBody3D.gd::GDScript::-1::1721786027::0::1::::<>CharacterBody3D<>::
+::res://scenes/ui/::1721786027
+::res://scenes/ui/input settings/::1721786027
+input_settings.tscn::PackedScene::6342576724188306433::1721786027::0::1::::<><>::
+::res://scenes/ui/menus/::1721786399
+2d menu.tscn::PackedScene::3910888296415124449::1721786399::0::1::::<><>::

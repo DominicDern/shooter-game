@@ -1,7 +1,8 @@
-HBoxContainer
-MarginContainer
 Button
 VBoxContainer
+MarginContainer
+ColorRect
+HBoxContainer
 ScrollContainer
 HScrollBar
 PanelContainer
