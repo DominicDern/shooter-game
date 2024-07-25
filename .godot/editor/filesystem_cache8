@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721880522
-debugworld.tscn::PackedScene::7368099086286319065::1721878826::0::1::::<><>::res://scenes/CharacterBody3D.gd
+::res://::1721899337
+debugworld.tscn::PackedScene::7368099086286319065::1721899330::0::1::::<><>::res://scenes/CharacterBody3D.gd<>uid://dc3l1se2jjvxr::::res://GLB format/crate.glb
 icon.svg::CompressedTexture2D::4681313995544758785::1721786027::1721786311::1::::<><>::
 README.md::TextFile::-1::1721786027::0::1::::<><>::
 wallworld.gd::GDScript::-1::1721880113::0::1::::<>Node3D<>::
-wallworld.tscn::PackedScene::2445964935712548664::1721880121::0::1::::<><>::res://scenes/CharacterBody3D.gd<>res://wallworld.gd
-::res://GLB format/::1721880547
+wallworld.tscn::PackedScene::2445964935712548664::1721882182::0::1::::<><>::res://scenes/CharacterBody3D.gd<>res://wallworld.gd<>uid://dc3l1se2jjvxr::::res://GLB format/crate.glb
+::res://GLB format/::1721899326
 arrow.glb::PackedScene::141896303303993806::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 arrows.glb::PackedScene::4108145025880466498::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 barrel.glb::PackedScene::1319683202457999086::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
@@ -100,7 +100,7 @@ coin-silver.glb::PackedScene::7372958933896580435::1721880522::1721880523::1::::
 crate-item-strong.glb::PackedScene::8993484920395809612::1721880522::1721880523::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 crate-item.glb::PackedScene::7649874348688228700::1721880522::1721880523::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 crate-strong.glb::PackedScene::3718415945665134451::1721880522::1721880524::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
-crate.glb::PackedScene::7358157585869682603::1721880522::1721880713::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+crate.glb::PackedScene::7358157585869682603::1721880522::1721899326::1::::<><>::
 door-large-open.glb::PackedScene::7717097472927357936::1721880522::1721880524::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 door-open.glb::PackedScene::1866900557102987541::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 door-rotate-large.glb::PackedScene::4277872658126621180::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
@@ -148,10 +148,10 @@ tree-pine-snow.glb::PackedScene::5625899808122362792::1721880522::1721880532::1:
 tree-pine.glb::PackedScene::4272533783713806331::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 tree-snow.glb::PackedScene::7207573695470592136::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 tree.glb::PackedScene::7670499158329346805::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
-::res://GLB format/Textures/::1721880523
+::res://GLB format/Textures/::1721880547
 colormap.png::CompressedTexture2D::6024781783899111765::1721880522::1721880547::1::::<><>::
-::res://scenes/::1721880119
-CharacterBody3D.gd::GDScript::-1::1721880119::0::1::::<>CharacterBody3D<>::
+::res://scenes/::1721898151
+CharacterBody3D.gd::GDScript::-1::1721898151::0::1::::<>CharacterBody3D<>::
 ::res://scenes/ui/::1721786027
 ::res://scenes/ui/input settings/::1721786027
 input_settings.tscn::PackedScene::6342576724188306433::1721786027::0::1::::<><>::
