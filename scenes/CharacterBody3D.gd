@@ -2,10 +2,9 @@ extends CharacterBody3D
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
-const SENSITIVITY = 0.03
+const SENSITIVITY = 0.03 # mouse sensitivity
 
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = 9.8
+var gravity = 9.8 # player gravity
 
 @onready var head = $head
 @onready var camera = $head/Camera3D
@@ -14,6 +13,7 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func _unhandled_input(event):
+	# base mouse controls
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * SENSITIVITY)
 		camera.rotate_x(-event.relative.y * SENSITIVITY)
