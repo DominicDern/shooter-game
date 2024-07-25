@@ -1,11 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721899337
-debugworld.tscn::PackedScene::7368099086286319065::1721899330::0::1::::<><>::res://scenes/CharacterBody3D.gd<>uid://dc3l1se2jjvxr::::res://GLB format/crate.glb
+::res://::1721900302
+debugworld.tscn::PackedScene::7368099086286319065::1721900295::0::1::::<><>::res://scenes/CharacterBody3D.gd
 icon.svg::CompressedTexture2D::4681313995544758785::1721786027::1721786311::1::::<><>::
 README.md::TextFile::-1::1721786027::0::1::::<><>::
-wallworld.gd::GDScript::-1::1721880113::0::1::::<>Node3D<>::
-wallworld.tscn::PackedScene::2445964935712548664::1721882182::0::1::::<><>::res://scenes/CharacterBody3D.gd<>res://wallworld.gd<>uid://dc3l1se2jjvxr::::res://GLB format/crate.glb
-::res://GLB format/::1721899326
+wallworld.tscn::PackedScene::2445964935712548664::1721900329::0::1::::<><>::res://scenes/CharacterBody3D.gd
+::res://GLB format/::1721899978
 arrow.glb::PackedScene::141896303303993806::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 arrows.glb::PackedScene::4108145025880466498::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 barrel.glb::PackedScene::1319683202457999086::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
@@ -21,9 +20,9 @@ block-grass-hexagon.glb::PackedScene::7373891376708406860::1721880522::172188053
 block-grass-large-slope-narrow.glb::PackedScene::417972892470153325::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-large-slope-steep-narrow.glb::PackedScene::9006805819638216411::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-large-slope-steep.glb::PackedScene::2606804598773978710::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
-block-grass-large-slope.glb::PackedScene::9012502876283405516::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
-block-grass-large-tall.glb::PackedScene::5640530454904465909::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
-block-grass-large.glb::PackedScene::2201960497693979922::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-slope.glb::PackedScene::9012502876283405516::1721880522::1721899840::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-tall.glb::PackedScene::5640530454904465909::1721880522::1721900369::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large.glb::PackedScene::2201960497693979922::1721880522::1721899460::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-long.glb::PackedScene::733450090693331195::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-low-hexagon.glb::PackedScene::6014573275197976727::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-low-large.glb::PackedScene::2011800545656657230::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png

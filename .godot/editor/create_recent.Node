@@ -1,6 +1,6 @@
 RigidBody3D
-CollisionShape3D
 StaticBody3D
+CollisionShape3D
 Button
 VBoxContainer
 MarginContainer
