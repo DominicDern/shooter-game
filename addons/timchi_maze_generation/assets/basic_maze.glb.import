@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://k6qcalbpdk3i"
-path="res://.godot/imported/block-snow-large-tall.glb-999d69009c5bc686b3fac64a30981819.scn"
+uid="uid://x88wmirx2lgp"
+path="res://.godot/imported/basic_maze.glb-586e18fb27cda07accde7a8f706b2187.scn"
 
 [deps]
 
-source_file="res://GLB format/block-snow-large-tall.glb"
-dest_files=["res://.godot/imported/block-snow-large-tall.glb-999d69009c5bc686b3fac64a30981819.scn"]
+source_file="res://addons/timchi_maze_generation/assets/basic_maze.glb"
+dest_files=["res://.godot/imported/basic_maze.glb-586e18fb27cda07accde7a8f706b2187.scn"]
 
 [params]
 
@@ -29,13 +29,6 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={
-"nodes": {
-"PATH:block-snow-large-tall": {
-"generate/physics": true,
-"physics/shape_type": 1
-}
-}
-}
+_subresources={}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

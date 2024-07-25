@@ -1,10 +1,30 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721900302
-debugworld.tscn::PackedScene::7368099086286319065::1721900295::0::1::::<><>::res://scenes/CharacterBody3D.gd
+::res://::1721904823
+debugworld.tscn::PackedScene::7368099086286319065::1721900387::0::1::::<><>::res://scenes/CharacterBody3D.gd
 icon.svg::CompressedTexture2D::4681313995544758785::1721786027::1721786311::1::::<><>::
 README.md::TextFile::-1::1721786027::0::1::::<><>::
-wallworld.tscn::PackedScene::2445964935712548664::1721900329::0::1::::<><>::res://scenes/CharacterBody3D.gd
-::res://GLB format/::1721899978
+wallworld.gd::GDScript::-1::1721903376::0::1::::<>Node3D<>::
+wallworld.tscn::PackedScene::2445964935712548664::1721904808::0::1::::<><>::res://scenes/CharacterBody3D.gd
+::res://addons/::1721904800
+::res://addons/timchi_maze_generation/::1721904802
+2d_maze.tscn::PackedScene::1982432256322343564::1721904800::0::1::::<><>::uid://b34doa7ktfpmg::::res://addons/timchi_maze_generation/assets/maze_2d_tileset.tres
+3dmaze.gd::GDScript::-1::1721904800::0::1::::Maze3D<>GridMap<>res://addons/timchi_maze_generation/maze.svg::
+3d_maze.tscn::PackedScene::1550418960629252781::1721904800::0::1::::<><>::res://addons/timchi_maze_generation/3dmaze.gd<>uid://c2of5rggx7uer::::res://addons/timchi_maze_generation/assets/maze.tres
+basic_maze_meshlibrary.tscn::PackedScene::2028866480507693399::1721904801::0::1::::<><>::uid://x88wmirx2lgp::::res://addons/timchi_maze_generation/assets/basic_maze.glb
+cell.gd::GDScript::-1::1721904801::0::1::::Cell<>RefCounted<>::
+maze.gd::GDScript::-1::1721904801::0::1::::Maze<>RefCounted<>::
+maze.svg::CompressedTexture2D::6973103189322781617::1721904801::1721904802::1::::<><>::
+plugin.cfg::TextFile::-1::1721904801::0::1::::<><>::
+timchi_maze_generation.gd::GDScript::-1::1721904801::0::1::::<>EditorPlugin<>::
+::res://addons/timchi_maze_generation/assets/::1721904802
+basic_maze.glb::PackedScene::1684511461228767599::1721904800::1721904802::1::::<><>::uid://ipfooqil3u2g::::res://addons/timchi_maze_generation/assets/basic_maze_WOODA.png<>uid://ddduyoxnfnhse::::res://addons/timchi_maze_generation/assets/basic_maze_REDBRICKS.png<>uid://b7g12kiqnwp8::::res://addons/timchi_maze_generation/assets/basic_maze_HEXAGONS.png
+basic_maze_HEXAGONS.png::CompressedTexture2D::136661098329971039::1721904800::1721904802::1::::<><>::
+basic_maze_REDBRICKS.png::CompressedTexture2D::7377279685619891868::1721904801::1721904802::1::::<><>::
+basic_maze_WOODA.png::CompressedTexture2D::592805761916736892::1721904801::1721904802::1::::<><>::
+maze.tres::MeshLibrary::6697199495421300761::1721904801::0::1::::<><>::uid://ddduyoxnfnhse::::res://addons/timchi_maze_generation/assets/basic_maze_REDBRICKS.png<>uid://b7g12kiqnwp8::::res://addons/timchi_maze_generation/assets/basic_maze_HEXAGONS.png<>uid://ipfooqil3u2g::::res://addons/timchi_maze_generation/assets/basic_maze_WOODA.png
+maze_2d.png::CompressedTexture2D::4140627317732169886::1721904801::1721904802::1::::<><>::
+maze_2d_tileset.tres::TileSet::4411782462432409458::1721904801::0::1::::<><>::uid://by80r6ga0ronu::::res://addons/timchi_maze_generation/assets/maze_2d.png
+::res://GLB format/::1721903316
 arrow.glb::PackedScene::141896303303993806::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 arrows.glb::PackedScene::4108145025880466498::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 barrel.glb::PackedScene::1319683202457999086::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
@@ -21,7 +41,7 @@ block-grass-large-slope-narrow.glb::PackedScene::417972892470153325::1721880522:
 block-grass-large-slope-steep-narrow.glb::PackedScene::9006805819638216411::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-large-slope-steep.glb::PackedScene::2606804598773978710::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-large-slope.glb::PackedScene::9012502876283405516::1721880522::1721899840::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
-block-grass-large-tall.glb::PackedScene::5640530454904465909::1721880522::1721900369::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-tall.glb::PackedScene::5640530454904465909::1721880522::1721900457::1::::<><>::
 block-grass-large.glb::PackedScene::2201960497693979922::1721880522::1721899460::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-long.glb::PackedScene::733450090693331195::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-grass-low-hexagon.glb::PackedScene::6014573275197976727::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
@@ -63,7 +83,7 @@ block-snow-large-slope-narrow.glb::PackedScene::6851303588564612736::1721880522:
 block-snow-large-slope-steep-narrow.glb::PackedScene::3930801951235590973::1721880522::1721880541::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-snow-large-slope-steep.glb::PackedScene::1809390525681647593::1721880522::1721880541::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-snow-large-slope.glb::PackedScene::2043431518763970125::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
-block-snow-large-tall.glb::PackedScene::766859207286709584::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-large-tall.glb::PackedScene::766859207286709584::1721880522::1721903316::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-snow-large.glb::PackedScene::2884292132805909131::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-snow-long.glb::PackedScene::9005780321465030689::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
 block-snow-low-hexagon.glb::PackedScene::8168736026663178824::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
