@@ -13,15 +13,22 @@ var gravity = 9.8
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
-func _input(event):
-	if event.is_action_pressed("ui_cancel"):  # "ui_cancel" is mapped to the Escape key by default
-		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
-
 func _unhandled_input(event):
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * SENSITIVITY)
 		camera.rotate_x(-event.relative.y * SENSITIVITY)
 		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-90), deg_to_rad(90))
+
+func _process(delta):
+	if Input.is_action_just_pressed("ui_cancel"):
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+		print("Mouse released")
+	
+	# Check for the left mouse button click
+	if Input.is_action_just_pressed("ui_select"):
+			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+			print("Mouse recaptured")
+
 
 func _physics_process(delta):
 	# Add the gravity.
