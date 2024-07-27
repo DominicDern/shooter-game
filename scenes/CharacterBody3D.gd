@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
-const SENSITIVITY = 0.03 # mouse sensitivity
+const SENSITIVITY = 0.003 # mouse sensitivity
 
 var gravity = 9.8 # player gravity
 
@@ -11,6 +11,17 @@ var gravity = 9.8 # player gravity
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+func _input(event):
+	# mouse escape for dev. TODO replace later with an escape menu
+	if event.is_action_pressed("ui_cancel"):
+		if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
+			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	
+	if event.is_action_pressed("click"):
+		if Input.get_mouse_mode() == Input.MOUSE_MODE_VISIBLE:
+			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+			get_tree().set_input_as_handled()
 
 func _unhandled_input(event):
 	# base mouse controls
@@ -33,7 +44,7 @@ func _physics_process(delta):
 	var input_dir = Input.get_vector("left", "right", "forward", "backward")
 	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	if direction:
-		velocity.x = direction.x * SPEED
+		velocity.x = direction.x * SPEED													
 		velocity.z = direction.z * SPEED
 	else:
 		velocity.x = 0.0
