@@ -2,10 +2,12 @@ extends CharacterBody3D
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
+<<<<<<< HEAD
 const SENSITIVITY = 0.01
+=======
+>>>>>>> origin/dev
 
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = 9.8
+var gravity = 9.8 # player gravity
 
 @onready var head = $head
 @onready var camera = $head/Camera3D
@@ -13,7 +15,19 @@ var gravity = 9.8
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
+func _input(event):
+	# mouse escape for dev. TODO replace later with an escape menu
+	if event.is_action_pressed("ui_cancel"):
+		if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
+			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	
+	if event.is_action_pressed("click"):
+		if Input.get_mouse_mode() == Input.MOUSE_MODE_VISIBLE:
+			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+			get_tree().set_input_as_handled()
+
 func _unhandled_input(event):
+	# base mouse controls
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * SENSITIVITY)
 		camera.rotate_x(-event.relative.y * SENSITIVITY)
@@ -44,7 +58,7 @@ func _physics_process(delta):
 	var input_dir = Input.get_vector("left", "right", "forward", "backward")
 	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	if direction:
-		velocity.x = direction.x * SPEED
+		velocity.x = direction.x * SPEED													
 		velocity.z = direction.z * SPEED
 	else:
 		velocity.x = 0.0
