@@ -1,5 +1,4 @@
-res://addons/timchi_maze_generation/3d_maze.tscn
+res://wallworld.tscn
 res://wallworld.gd
 res://addons/timchi_maze_generation/assets/maze.tres
-res://addons/timchi_maze_generation/3dmaze.gd
-res://wallworld.tscn
+res://addons/timchi_maze_generation/3d_maze.tscn
