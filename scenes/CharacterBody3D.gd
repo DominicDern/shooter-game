@@ -2,10 +2,8 @@ extends CharacterBody3D
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
-<<<<<<< HEAD
-const SENSITIVITY = 0.01
-=======
->>>>>>> origin/dev
+
+const SENSITIVITY = 0.003 # mouse sensitivity
 
 var gravity = 9.8 # player gravity
 
@@ -58,7 +56,7 @@ func _physics_process(delta):
 	var input_dir = Input.get_vector("left", "right", "forward", "backward")
 	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	if direction:
-		velocity.x = direction.x * SPEED													
+		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
 	else:
 		velocity.x = 0.0

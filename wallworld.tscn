@@ -5,14 +5,21 @@
 [sub_resource type="GDScript" id="GDScript_pofjo"]
 script/source = "extends Node3D
 
+static var WALL_DIM = Vector3(.5,2,5)
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
-	var Wall = load(\"res://GLB format/block-snow-large-tall.glb\")
+	var wallFile = load(\"res://GLB format/block-snow-large-tall.glb\")
+	var location = Vector3(10,0,0)
+	_addWall(location,wallFile)
+
+
+func _addWall(move: Vector3,wallFile : PackedScene):
 	
-	if Wall:
+	if wallFile:
 		print(\"GLB file loaded successfully\")
-		var WallInst = Wall.instantiate()
+		var WallInst = wallFile.instantiate()
 		if WallInst:
 			print(\"GLB instance created successfully\")
 			# Find the MeshInstance3D node within the loaded scene
@@ -26,11 +33,12 @@ func _ready():
 				#adding a meshinstance if one is not found
 				var NewMesh = MeshInstance3D.new()
 				add_child(NewMesh)
-		
-		
-		
-		
-		
+				print(NewMesh)
+			
+			#adding fully instanced wall to scene
+			WallInst.transform.origin = move
+			WallInst.scale = WALL_DIM
+			add_child(WallInst)
 		else:
 			print(\"Failed to instance the .glb file\")
 	else:
