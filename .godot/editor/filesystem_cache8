@@ -1,12 +1,196 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721786514
-debugworld.tscn::PackedScene::7368099086286319065::1721786399::0::1::::<><>::res://scenes/CharacterBody3D.gd
+<<<<<<< HEAD
+::res://::1721951102
+debugworld.tscn::PackedScene::7368099086286319065::1721900387::0::1::::<><>::res://scenes/CharacterBody3D.gd
 icon.svg::CompressedTexture2D::4681313995544758785::1721786027::1721786311::1::::<><>::
 README.md::TextFile::-1::1721786027::0::1::::<><>::
-::res://scenes/::1721786027
-CharacterBody3D.gd::GDScript::-1::1721786027::0::1::::<>CharacterBody3D<>::
+wallworld.gd::GDScript::-1::1721904973::0::1::::<>Node3D<>::
+wallworld.tscn::PackedScene::2445964935712548664::1721905337::0::1::::<><>::res://scenes/CharacterBody3D.gd
+::res://addons/::1721904800
+::res://addons/timchi_maze_generation/::1721905142
+2d_maze.tscn::PackedScene::1982432256322343564::1721904800::0::1::::<><>::uid://b34doa7ktfpmg::::res://addons/timchi_maze_generation/assets/maze_2d_tileset.tres
+3dmaze.gd::GDScript::-1::1721904973::0::1::::Maze3D<>GridMap<>res://addons/timchi_maze_generation/maze.svg::
+3d_maze.tscn::PackedScene::1550418960629252781::1721905142::0::1::::<><>::res://addons/timchi_maze_generation/3dmaze.gd<>uid://c2of5rggx7uer::::res://addons/timchi_maze_generation/assets/maze.tres<>res://scenes/CharacterBody3D.gd
+basic_maze_meshlibrary.tscn::PackedScene::2028866480507693399::1721904801::0::1::::<><>::uid://x88wmirx2lgp::::res://addons/timchi_maze_generation/assets/basic_maze.glb
+cell.gd::GDScript::-1::1721904801::0::1::::Cell<>RefCounted<>::
+maze.gd::GDScript::-1::1721904801::0::1::::Maze<>RefCounted<>::
+maze.svg::CompressedTexture2D::6973103189322781617::1721904801::1721904802::1::::<><>::
+plugin.cfg::TextFile::-1::1721904801::0::1::::<><>::
+timchi_maze_generation.gd::GDScript::-1::1721904801::0::1::::<>EditorPlugin<>::
+::res://addons/timchi_maze_generation/assets/::1721904973
+basic_maze.glb::PackedScene::1684511461228767599::1721904800::1721904802::1::::<><>::uid://ipfooqil3u2g::::res://addons/timchi_maze_generation/assets/basic_maze_WOODA.png<>uid://ddduyoxnfnhse::::res://addons/timchi_maze_generation/assets/basic_maze_REDBRICKS.png<>uid://b7g12kiqnwp8::::res://addons/timchi_maze_generation/assets/basic_maze_HEXAGONS.png
+basic_maze_HEXAGONS.png::CompressedTexture2D::136661098329971039::1721904800::1721904802::1::::<><>::
+basic_maze_REDBRICKS.png::CompressedTexture2D::7377279685619891868::1721904801::1721904802::1::::<><>::
+basic_maze_WOODA.png::CompressedTexture2D::592805761916736892::1721904801::1721904802::1::::<><>::
+maze.tres::MeshLibrary::6697199495421300761::1721904973::0::1::::<><>::uid://ddduyoxnfnhse::::res://addons/timchi_maze_generation/assets/basic_maze_REDBRICKS.png<>uid://b7g12kiqnwp8::::res://addons/timchi_maze_generation/assets/basic_maze_HEXAGONS.png<>uid://ipfooqil3u2g::::res://addons/timchi_maze_generation/assets/basic_maze_WOODA.png
+maze_2d.png::CompressedTexture2D::4140627317732169886::1721904801::1721904802::1::::<><>::
+maze_2d_tileset.tres::TileSet::4411782462432409458::1721904801::0::1::::<><>::uid://by80r6ga0ronu::::res://addons/timchi_maze_generation/assets/maze_2d.png
+::res://GLB format/::1721903316
+arrow.glb::PackedScene::141896303303993806::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+arrows.glb::PackedScene::4108145025880466498::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+barrel.glb::PackedScene::1319683202457999086::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-corner-low.glb::PackedScene::1609728458703762179::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-corner-overhang-low.glb::PackedScene::1807592758769908607::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-corner-overhang.glb::PackedScene::8663532550472599324::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-corner.glb::PackedScene::9138276326816328227::1721880522::1721880539::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-curve-half.glb::PackedScene::8330881345977825509::1721880522::1721880539::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-curve-low.glb::PackedScene::2829501578317949761::1721880522::1721880539::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-curve.glb::PackedScene::3064208488527608701::1721880522::1721880539::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-edge.glb::PackedScene::2423627784105087069::1721880522::1721880539::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-hexagon.glb::PackedScene::7373891376708406860::1721880522::1721880539::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-slope-narrow.glb::PackedScene::417972892470153325::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-slope-steep-narrow.glb::PackedScene::9006805819638216411::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-slope-steep.glb::PackedScene::2606804598773978710::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-slope.glb::PackedScene::9012502876283405516::1721880522::1721899840::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-large-tall.glb::PackedScene::5640530454904465909::1721880522::1721900457::1::::<><>::
+block-grass-large.glb::PackedScene::2201960497693979922::1721880522::1721899460::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-long.glb::PackedScene::733450090693331195::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-low-hexagon.glb::PackedScene::6014573275197976727::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-low-large.glb::PackedScene::2011800545656657230::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-low-long.glb::PackedScene::2805833749522870431::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-low-narrow.glb::PackedScene::3170585635865459786::1721880522::1721880536::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-low.glb::PackedScene::9177767248037356761::1721880522::1721880536::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-narrow.glb::PackedScene::848643286401277786::1721880522::1721880536::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-corner.glb::PackedScene::9126024013510205446::1721880522::1721880536::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-edge.glb::PackedScene::3545951448926563133::1721880522::1721880536::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-hexagon.glb::PackedScene::2773215960602366762::1721880522::1721880536::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-large-slope-narrow.glb::PackedScene::2492066084400061591::1721880522::1721880537::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-large-slope-steep-narrow.glb::PackedScene::5597900533489303142::1721880522::1721880537::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-large-slope-steep.glb::PackedScene::2259592317713319230::1721880522::1721880537::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-large-slope.glb::PackedScene::7969941973669379650::1721880522::1721880537::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-large-tall.glb::PackedScene::6774338885157449622::1721880522::1721880537::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-large.glb::PackedScene::3244317523393579418::1721880522::1721880537::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-long.glb::PackedScene::6387909168872294360::1721880522::1721880538::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-low-hexagon.glb::PackedScene::1577428788171043681::1721880522::1721880544::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-low-large.glb::PackedScene::7452493679553658614::1721880522::1721880544::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-low-long.glb::PackedScene::9075395580886366466::1721880522::1721880544::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-low-narrow.glb::PackedScene::4511183095092687677::1721880522::1721880544::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-low.glb::PackedScene::9064908475317241145::1721880522::1721880544::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass-overhang-narrow.glb::PackedScene::7130212350983667675::1721880522::1721880545::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-grass.glb::PackedScene::4066021639438460745::1721880522::1721880545::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-moving-blue.glb::PackedScene::6501256280355680201::1721880522::1721880545::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-moving-large.glb::PackedScene::913441458117910743::1721880522::1721880545::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-moving.glb::PackedScene::3414324643422245780::1721880522::1721880545::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-corner-low.glb::PackedScene::531483624973202002::1721880522::1721880545::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-corner-overhang-low.glb::PackedScene::7039522701214089368::1721880522::1721880546::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-corner-overhang.glb::PackedScene::8477756395610593818::1721880522::1721880546::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-corner.glb::PackedScene::8072521857349975741::1721880522::1721880546::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-curve-half.glb::PackedScene::4344796036508364743::1721880522::1721880546::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-curve-low.glb::PackedScene::2122688522338288075::1721880522::1721880546::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-curve.glb::PackedScene::1545298666135711617::1721880522::1721880546::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-edge.glb::PackedScene::6731448755394553163::1721880522::1721880547::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-hexagon.glb::PackedScene::2076884887907226507::1721880522::1721880540::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-large-slope-narrow.glb::PackedScene::6851303588564612736::1721880522::1721880541::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-large-slope-steep-narrow.glb::PackedScene::3930801951235590973::1721880522::1721880541::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-large-slope-steep.glb::PackedScene::1809390525681647593::1721880522::1721880541::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-large-slope.glb::PackedScene::2043431518763970125::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-large-tall.glb::PackedScene::766859207286709584::1721880522::1721903316::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-large.glb::PackedScene::2884292132805909131::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-long.glb::PackedScene::9005780321465030689::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-low-hexagon.glb::PackedScene::8168736026663178824::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-low-large.glb::PackedScene::1783405622577587785::1721880522::1721880542::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-low-long.glb::PackedScene::7377565373487034957::1721880522::1721880543::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-low-narrow.glb::PackedScene::1090530000531256601::1721880522::1721880543::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-low.glb::PackedScene::6663089489832713353::1721880522::1721880543::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-narrow.glb::PackedScene::1245899436162223199::1721880522::1721880543::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-corner.glb::PackedScene::6485939521612994229::1721880522::1721880543::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-edge.glb::PackedScene::4796505506973382785::1721880522::1721880543::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-hexagon.glb::PackedScene::8661821100141205945::1721880522::1721880543::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-large-slope-narrow.glb::PackedScene::5649488916163701887::1721880522::1721880544::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-large-slope-steep-narrow.glb::PackedScene::2965580171057446258::1721880522::1721880526::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-large-slope-steep.glb::PackedScene::4799043150285213485::1721880522::1721880526::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-large-slope.glb::PackedScene::2723736210616740862::1721880522::1721880527::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-large-tall.glb::PackedScene::8934751453638029847::1721880522::1721880527::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-large.glb::PackedScene::1707234530778953281::1721880522::1721880527::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-long.glb::PackedScene::1375650782057902695::1721880522::1721880527::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-low-hexagon.glb::PackedScene::6724573056811975034::1721880522::1721880527::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-low-large.glb::PackedScene::8002106498699136359::1721880522::1721880527::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-low-long.glb::PackedScene::8179793115480208132::1721880522::1721880528::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-low-narrow.glb::PackedScene::5560184516998110763::1721880522::1721880528::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-low.glb::PackedScene::553546269432867917::1721880522::1721880528::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow-overhang-narrow.glb::PackedScene::1988308432212980537::1721880522::1721880528::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+block-snow.glb::PackedScene::1060152132167085803::1721880522::1721880528::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+bomb.glb::PackedScene::7397071787625258111::1721880522::1721880529::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+button-round.glb::PackedScene::6674030732415191974::1721880522::1721880529::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+button-square.glb::PackedScene::3904316427350184141::1721880522::1721880529::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+chest.glb::PackedScene::2178669762073311311::1721880522::1721880529::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+coin-bronze.glb::PackedScene::8994910919076137815::1721880522::1721880529::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+coin-gold.glb::PackedScene::6472039916153040170::1721880522::1721880523::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+coin-silver.glb::PackedScene::7372958933896580435::1721880522::1721880523::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+crate-item-strong.glb::PackedScene::8993484920395809612::1721880522::1721880523::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+crate-item.glb::PackedScene::7649874348688228700::1721880522::1721880523::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+crate-strong.glb::PackedScene::3718415945665134451::1721880522::1721880524::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+crate.glb::PackedScene::7358157585869682603::1721880522::1721899326::1::::<><>::
+door-large-open.glb::PackedScene::7717097472927357936::1721880522::1721880524::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+door-open.glb::PackedScene::1866900557102987541::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+door-rotate-large.glb::PackedScene::4277872658126621180::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+door-rotate.glb::PackedScene::7642962031822408258::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-broken.glb::PackedScene::8534624240229424315::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-corner-curved.glb::PackedScene::962462210481046969::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-corner.glb::PackedScene::4936263418720206674::1721880522::1721880525::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-low-broken.glb::PackedScene::8969973078563270468::1721880522::1721880526::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-low-corner-curved.glb::PackedScene::5127202441652485503::1721880522::1721880526::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-low-corner.glb::PackedScene::8549389596704796493::1721880522::1721880526::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-low-straight.glb::PackedScene::607640363188896654::1721880522::1721880526::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+fence-straight.glb::PackedScene::6182276393231894395::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+flag.glb::PackedScene::2240689894993348441::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+flowers-tall.glb::PackedScene::9199146033034798017::1721880522::1721880533::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+flowers.glb::PackedScene::7489537470393077334::1721880522::1721880533::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+grass.glb::PackedScene::7402267685554948999::1721880522::1721880533::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+heart.glb::PackedScene::9103140147863269170::1721880522::1721880533::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+hedge-corner.glb::PackedScene::8625988104591649932::1721880522::1721880533::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+hedge.glb::PackedScene::2789318448941783897::1721880522::1721880533::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+jewel.glb::PackedScene::8540932047968504248::1721880522::1721880533::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+key.glb::PackedScene::2508096807218918059::1721880522::1721880534::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+ladder-broken.glb::PackedScene::5433832141333284517::1721880522::1721880534::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+ladder-long.glb::PackedScene::2702298889630032641::1721880522::1721880534::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+ladder.glb::PackedScene::1374588703884806481::1721880522::1721880534::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+lever.glb::PackedScene::4121392600535260926::1721880522::1721880534::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+lock.glb::PackedScene::7059238788842956046::1721880522::1721880534::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+mushrooms.glb::PackedScene::1432974701063620455::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+plant.glb::PackedScene::2480725985303721705::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+platform-fortified.glb::PackedScene::6922847170529540119::1721880522::1721880535::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+platform-overhang.glb::PackedScene::8441085874151089560::1721880522::1721880529::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+platform-ramp.glb::PackedScene::3074785726164752556::1721880522::1721880529::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+platform.glb::PackedScene::6957473763408684500::1721880522::1721880530::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+poles.glb::PackedScene::5208994096443380837::1721880522::1721880530::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+rocks.glb::PackedScene::7762523807504040246::1721880522::1721880530::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+saw.glb::PackedScene::2801117963429040351::1721880522::1721880530::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+sign.glb::PackedScene::1130434041000841252::1721880522::1721880530::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+spike-block-wide.glb::PackedScene::1581772677682698914::1721880522::1721880530::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+spike-block.glb::PackedScene::2960885578418100965::1721880522::1721880531::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+stones.glb::PackedScene::5031169828599294393::1721880522::1721880531::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+trap-spikes-large.glb::PackedScene::4033302621117200556::1721880522::1721880531::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+trap-spikes.glb::PackedScene::356867203450992110::1721880522::1721880531::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+tree-pine-small.glb::PackedScene::7817418713680162560::1721880522::1721880531::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+tree-pine-snow-small.glb::PackedScene::3687678497387520185::1721880522::1721880531::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+tree-pine-snow.glb::PackedScene::5625899808122362792::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+tree-pine.glb::PackedScene::4272533783713806331::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+tree-snow.glb::PackedScene::7207573695470592136::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+tree.glb::PackedScene::7670499158329346805::1721880522::1721880532::1::::<><>::uid://cr3pjm1btcuiv::::res://GLB format/Textures/colormap.png
+::res://GLB format/Textures/::1721880547
+colormap.png::CompressedTexture2D::6024781783899111765::1721880522::1721880547::1::::<><>::
+::res://scenes/::1721898151
+CharacterBody3D.gd::GDScript::-1::1721898151::0::1::::<>CharacterBody3D<>::
 ::res://scenes/ui/::1721786027
 ::res://scenes/ui/input settings/::1721786027
 input_settings.tscn::PackedScene::6342576724188306433::1721786027::0::1::::<><>::
-::res://scenes/ui/menus/::1721786399
-2d menu.tscn::PackedScene::3910888296415124449::1721786399::0::1::::<><>::
+::res://scenes/ui/menus/::1721874725
+2d menu.gd::GDScript::-1::1721874725::0::1::::<>RefCounted<>::
+2d menu.tscn::PackedScene::3910888296415124449::1721874725::0::1::::<><>::res://scenes/ui/menus/2d menu.gd
+game_menu.gd::GDScript::-1::1721874725::0::1::::<>Control<>::
+game_menu.tscn::PackedScene::365679316563787793::1721874725::0::1::::<><>::res://scenes/ui/menus/game_menu.gd
+=======
+::res://::1721944696
+debugworld.tscn::PackedScene::7368099086286319065::1721944419::0::1::::<><>::res://scenes/CharacterBody3D.gd
+icon.svg::CompressedTexture2D::4681313995544758785::1721786011::1721786011::1::::<><>::
+README.md::TextFile::-1::1721785768::0::1::::<><>::
+::res://scenes/::1721944541
+CharacterBody3D.gd::GDScript::-1::1721944541::0::1::::<>CharacterBody3D<>::
+::res://scenes/assets/::1721765709
+::res://scenes/ui/::1721786011
+::res://scenes/ui/input settings/::1721944419
+input_settings.tscn::PackedScene::6342576724188306433::1721944419::0::1::::<><>::
+::res://scenes/ui/menus/::1721944419
+2d menu.tscn::PackedScene::3910888296415124449::1721944419::0::1::::<><>::
+>>>>>>> origin/dev
