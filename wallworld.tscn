@@ -11,10 +11,10 @@ script/source = "extends Node3D
 func _ready():
 	
 	var endpoints = [
-		[Vector3(0,0,0),Vector3(5,0,0)],
-		#[Vector3(5,0,0),Vector3(5,0,5)],
-		[Vector3(5,0,5),Vector3(0,0,5)],
-		[Vector3(0,0,5),Vector3(0,0,0)]]
+		[Vector3(0,0,0),Vector3(0,0,5)],
+		[Vector3(5,0,0),Vector3(5,0,5)],
+		[Vector3(15,0,0),Vector3(20,0,0)],
+		[Vector3(15,0,0),Vector3(15,0,5)]]
 	
 	
 	var wallFile = load(\"res://GLB format/block-snow-large-tall.glb\")
