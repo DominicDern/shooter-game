@@ -5,17 +5,29 @@
 [sub_resource type="GDScript" id="GDScript_pofjo"]
 script/source = "extends Node3D
 
-static var WALL_DIM = Vector3(.5,2,5)
+#static var WALL_DIM = Vector3(.5,2,5)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
+	var endpoints = [
+		[Vector3(0,0,0),Vector3(5,0,0)],
+		#[Vector3(5,0,0),Vector3(5,0,5)],
+		[Vector3(5,0,5),Vector3(0,0,5)],
+		[Vector3(0,0,5),Vector3(0,0,0)]]
+	
+	
 	var wallFile = load(\"res://GLB format/block-snow-large-tall.glb\")
-	var location = Vector3(10,0,0)
-	_addWall(location,wallFile)
+	
+	for pair in endpoints:
+		var pointA = pair[0]
+		var pointB = pair[1]
+		_addWall(pointA,pointB,wallFile)
+	
 
 
-func _addWall(move: Vector3,wallFile : PackedScene):
+
+func _addWall(pointA: Vector3,pointB: Vector3, wallFile : PackedScene):
 	
 	if wallFile:
 		print(\"GLB file loaded successfully\")
@@ -35,10 +47,27 @@ func _addWall(move: Vector3,wallFile : PackedScene):
 				add_child(NewMesh)
 				print(NewMesh)
 			
-			#adding fully instanced wall to scene
-			WallInst.transform.origin = move
-			WallInst.scale = WALL_DIM
+			#calculating transforms and then adding wall to the scene
+			
+			# Calculate the distance between pointA and pointB
+			var distance = (pointA.distance_to(pointB))/2
+			print(\"Distance between points: \", distance)
+			
+			# Calculate the direction vector and angle
+			var direction = (pointB - pointA).normalized()
+			var angle = atan2(direction.z, direction.x)
+			print(\"Angle between points: \", angle)
+			
+			#finding midpoint
+			var mid = (pointA+pointB)/2
+			print(\"the midpoint is:\", mid)
+			
+			# Set the position, scale, and rotation of the wall
+			WallInst.transform.origin = mid
+			WallInst.scale = Vector3(distance, 2, 0.5)  # Adjust the scale as needed
+			WallInst.rotation.y = angle  # Set the rotation angle
 			add_child(WallInst)
+			print(\"WallInst added to the scene tree\")
 		else:
 			print(\"Failed to instance the .glb file\")
 	else:
